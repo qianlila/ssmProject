@@ -1,0 +1,87 @@
+@charset "UTF-8";
+html{   
+    margin: 0;
+    padding: 0;
+    width: 100%;   
+    height: 100%;   
+    overflow: hidden;   
+    font-style: sans-serif;   
+}   
+body{   
+    width: 100%;   
+    height: 100%;
+    font-family: "楷体";
+    margin: 0;   
+    background-color: #d5e9f9;  
+     
+}   
+#all{
+   	position: absolute;
+    width: 100%;   
+    height: 100%;
+    overflow:auto;
+}
+#box table tr th{
+	font-family: "楷体";  
+	font-size:20px;
+	}
+#box{
+    position: relative;
+    margin-top: 50px;
+}  
+#box table caption{
+    font-size: 30px;
+    font-weight: bold;
+}  
+#box table{
+    border: rgb(78, 76, 76) 1px;
+   /*  color:#add3f3; */
+    color: rgb(78, 76, 76);
+    
+}
+#box a{
+	text-decoration: none;
+}
+
+#box table a:link {
+	color: #000;
+}
+#box table a:visited {
+	color: #000;
+}
+#box table tr th input{
+	font-family: "楷体";  
+	font-size:20px;
+	text-align:center;
+	background: transparent;
+	border:0;
+	outline: none;
+}
+
+#box .butt{
+	font-family: "楷体";  
+	font-size:20px;
+	font-weight: bold;
+	background:transparent;
+	border:0;
+	outline: none;
+}
+
+#selete input{
+	margin:0;
+	padding:0;
+	margin-top:10px;
+	font-family:"楷体"; 
+	border:1px solid #646464;
+	font-size:18px; 
+	height:35px;
+	outline: none;
+}
+#selete button{
+	with:300px;
+	height:35px;
+	background-color:#fff;
+	border:1px solid #646464;
+	border-radius:1em;
+	outline: none;
+}
