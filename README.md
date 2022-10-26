@@ -143,7 +143,7 @@ mybatis-config.xml
 driver=com.mysql.jdbc.Driver
 url=jdbc:mysql://localhost:3306/mybatis?useSSL=false&useUnicode=true&characterEncoding=utf8
 name=root
-pwd=lqx2877354362
+pwd=
 ```
 
 - IDEA关联数据库
